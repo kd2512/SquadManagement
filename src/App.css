@@ -1,5 +1,14 @@
+body{
+  background-image: url('./assests/background.jpg');
+  background-repeat: no-repeat;
+  opacity: 1;
+  height: 100vh;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
+  padding: 5%;
 }
 
 .App-logo {
@@ -35,4 +44,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.right-button{
+  cursor: pointer;
+  float: right;
+}
+
+.list-item{
+  display: inline-block;
 }
