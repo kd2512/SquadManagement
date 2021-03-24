@@ -1,4 +1,4 @@
-import React, {Component} from 'react' ;
+import React from 'react' ;
 import './App.css';
 import CharacterList from './Components/CharacterList';
 import HeroList from './Components/HeroList';
